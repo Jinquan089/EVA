@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+    /* font */
+    font-family: "Averta CY", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* header*/
+
+.header {
+    text-align: center;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header h1 {
+    font-size: 7vw;
+    color: black;
+}
+
+.header i {
+    font-size: 2.5vw;
+    color: lightseagreen;
+}
+
+
+/* column*/
+
+.column1 {
+    width: 100%;
+    float: left;
+}
+
+.column2 {
+    width: 50%;
+    float: left;
+}
+
+.column3 {
+    width: 50%;
+    float: left;
+}
+
+.column4 {
+    width: 50%;
+    float: left;
+}
+
+.column5 {
+    width: 50%;
+    float: left;
+}
+
+.column6 {
+    width: 100%;
+    float: left;
+}
+
+.column7 {
+    width: 25%;
+    float: left;
+}
+
+.column8 {
+    width: 100%;
+    float: left;
+}
+
+.column9 {
+    width: 50%;
+    float: left;
+}
+
+.column10 {
+    width: 50%;
+    float: left;
+}
+
+.column11 {
+    width: 50%;
+    float: left;
+}
+
+.column12 {
+    width: 50%;
+    float: left;
+}
+
+.column13 {
+    width: 100%;
+    float: left;
+}
+
+
+/*flex*/
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*ID*/
+
+#header {}
+
+#id {}
+
+#tipo {}
+
+#clase {}
+
+#combinados {}
+
+#selector {}
+
+#descendiente {}
+
+#directo {}
+
+#adyacente {}
+
+#hermano {}
+
+#lenguaje {
+    background-color: whitesmoke;
+}
+
+
+/*padding*/
+
+.padding-all {
+    padding-top: 7vh;
+    padding-left: 18vh;
+    padding-bottom: 7vh;
+    padding-right: 18vh;
+}
+
+.padding-r {
+    padding-left: 6vh;
+}
+
+.column3,
+.column5,
+.column10,
+.column12 {
+    padding-right: 5vh;
+}
+
+
+/*font-size*/
+
+h1 {
+    font-size: 3vw;
+    color: lightseagreen;
+}
+
+p {
+    font-size: 1.75vw;
+}
+
+.column6 h3 {
+    font-size: 2.5vw;
+}
+
+.column13 h1 {
+    color: black;
+    font-size: 2vw;
+}
+
+select {
+    background-color: whitesmoke;
+    border: white;
+    font-size: 1.5vw;
+}
+
+
+/*Otros*/
+
+.column6 h3,
+.column7 {
+    text-align: center;
+}
+
+
+/*Tamaños de imagen*/
+
+img {
+    width: 100%;
+}
+
+img {
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2), 6px 6px 6px 6px rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.video {
+    height: 35vw;
+}
+
+
+/*Menu de desplegar*/
+
+body {
+    font-size: 28px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+
+/*sombre*/
+
+ul {
+    box-shadow: 0px 4px 0px 4px rgba(0, 0, 0, 0.2), 0px 6px 0px 6px rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+
+/* Movimiento suave*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*color de fonto*/
+
+.fondo {
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width:700px) {
+    .header {
+        padding-top: 80vw;
+        padding-left: 6vw;
+        padding-bottom: 80vw;
+        padding-right: 6vw;
+    }
+    .header h1 {
+        font-size: 10vw;
+    }
+    .header i {
+        font-size: 5vw;
+    }
+    .flex {
+        display: block;
+    }
+    /* Column */
+    .column2 {
+        width: 100%;
+    }
+    .column3 {
+        width: 100%;
+    }
+    .column4 {
+        width: 100%;
+    }
+    .column5 {
+        width: 100%;
+    }
+    .column6 {
+        width: 100%;
+    }
+    .column9 {
+        width: 100%;
+    }
+    .column10 {
+        width: 100%;
+    }
+    .column11 {
+        width: 100%;
+    }
+    .column12 {
+        width: 100%;
+    }
+    /*padding*/
+    .column3,
+    .column5,
+    .column10,
+    .column12 {
+        padding-right: 0vh;
+    }
+    .padding-all {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    .padding-r {
+        padding-left: 0;
+    }
+    h1 {
+        font-size: 10vw;
+    }
+    p {
+        font-size: 6vw;
+    }
+    .column13 h1 {
+        font-size: 6vw;
+    }
+    select {
+        font-size: 6vw;
+    }
+    .column7 {
+        width: 50%;
+    }
+    .video {
+        width: 100%;
+        height: 100vw;
+    }
+    .column1 h1 {
+        font-size: 7vw;
+    }
+    li {
+        font-size: 4vw;
+    }
+    .column6 h3 {
+        font-size: 5vw;
+    }
+}

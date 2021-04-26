@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/codigo.js"></script>
+    <title>EVA</title>
+</head>
+
+<body>
+    <div class="row header" id="header">
+        <div>
+            <h1>Selectors de CSS</h1>
+            <i class="fas fa-laptop-code"></i>
+        </div>
+    </div>
+    <ul>
+        <li><a href="#selector">Selector combinats 2</a></li>
+        <li><a href="#combinados">Selector combinats</a></li>
+        <li><a href="#clase">Classe</a></li>
+        <li><a href="#tipo">Tipus</a></li>
+        <li><a href="#id">ID</a></li>
+        <li><a href="#header"><i class="fas fa-arrow-up"></i></a></li>
+    </ul>
+    <div class="row padding-all">
+        <div class="column1">
+            <h1>Tutorial de selectors de CSS</h1>
+        </div>
+        <div class="column1 video">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/l1mER1bV0N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row flex padding-all" id="id">
+        <div class="column2">
+            <h1>ID</h1>
+            <p>És un selector que es defineix per un identificador únic a el qual no ha de repetir-se en tot el document. El seu propòsit és identificar l'element a l'vincular-en scripts o full d'estil</p>
+        </div>
+        <div class="column2">
+            <img src="../img/id.PNG" alt="Ejemplo de html y css de id">
+        </div>
+    </div>
+    <div class="row flex padding-all" id="tipo">
+        <div class="column3">
+            <img src="../img/tipo.PNG" alt="Tres tipo de selectores de css">
+        </div>
+        <div class="column3 fondo padding-r">
+            <h1>Tipus</h1>
+            <p>Tipus d'etiquetes són utilitzats per donar un estil o un format a la pàgina web que estem creant</p>
+        </div>
+    </div>
+    <div class="row flex padding-all" id="clase">
+        <div class="column4">
+            <h1>Selector de classe</h1>
+            <p>El selector classe tens com posar un ".clase" i després poses els estils que vols posar.</p>
+        </div>
+        <div class="column4">
+            <img src="../img/classe.PNG" alt="Un ejemplo de como funciona el selector clase">
+        </div>
+    </div>
+    <div class="row flex padding-all" id="combinados">
+        <div class="column5">
+            <img src="../img/combinado.PNG" alt="Un ejemplo de como es un selector combianado en css">
+        </div>
+        <div class="column5 fondo padding-r">
+            <h1>Selectors Combinats</h1>
+            <p>El selector combinats és que una etiqueta tingui més d'un estil</p>
+        </div>
+    </div>
+    <div class="row padding-all" id="selector">
+        <div class="column6">
+            <h1>Selector combinats 2</h1>
+            <p>Els combinadors, que són un tipus especial de selectors en CSS que s'usen en conjunt amb selectors simples (classe, id, element) per fer que una regla sigui més específica.</p>
+        </div>
+        <div class="column6">
+            <h3>Hi ha 4 tipus</h3>
+        </div>
+        <div class="column7">
+            <p>Descendent</p>
+        </div>
+        <div class="column7">
+            <p>Fill directe</p>
+        </div>
+        <div class="column7">
+            <p>Adjacent</p>
+        </div>
+        <div class="column7">
+            <p>Germà</p>
+        </div>
+        <div class="column8">
+            <img src="../img/4 selectores.png" alt="los 4 signos de selectores combianados">
+        </div>
+    </div>
+    <div class="row flex padding-all" id="descendiente">
+        <div class="column9">
+            <h1>Descendent</h1>
+            <p>Aquest selector afecta tots els elements que siguin descendents d'un altre element especificat, sense importar el nivell de profunditat a què es troben.</p>
+        </div>
+        <div class="column9">
+            <img src="../img/descendientes.PNG" alt="Ejemplo de como funciona el descendiente">
+        </div>
+    </div>
+    <div class="row flex padding-all" id="directo">
+        <div class="column10">
+            <img src="../img/directo.PNG" alt="Ejemplo de como funciona el Hijo directo">
+        </div>
+        <div class="column10 fondo padding-r">
+            <h1>Fill Directe</h1>
+            <p>Aquest selector actua sobre tots aquells elements que siguin fills d'un altre element especificat, però que es troben en el primer nivell, és a dir, si estan dins d'un altre element fill d'aquest mateix pare, no es tenen en compte</p>
+        </div>
+    </div>
+    <div class="row flex padding-all" id="adyacente">
+        <div class="column11">
+            <h1>Element adjacent</h1>
+            <p>Aquest selector afecta els elements que, tenint el mateix element com a pare, estiguin immediatament seguits un de l'altre, aquesta relació es representa amb el símbol + entre els selectors</p>
+        </div>
+        <div class="column11">
+            <img src="../img/adyacente.PNG" alt="Ejemplo de como funciona el Elemento adyacente">
+        </div>
+    </div>
+    <div class="row flex padding-all" id="hermano">
+        <div class="column12">
+            <img src="../img/hermano.PNG" alt="Ejemplo de como funciona el Elemento Hermano">
+        </div>
+        <div class="column12 fondo padding-r">
+            <h1>Element Germà</h1>
+            <p>Aquest selector actua sobre aquells elements que es trobin precedits per un element específic i que tinguin com a pare a el mateix element, i es representa amb el símbol ~ entre els dos selectors</p>
+        </div>
+    </div>
+    <div class="row padding-all" id="lenguaje">
+        <div class="column13">
+            <h1>Aprèn CSS per realitzar la teva pròpia pagina web</h1>
+            <select name="language" id="language" onchange="language()">
+                <option value="CA" selected>Català</option>
+                <option value="ES">Espanyol</option>
+            </select>
+        </div>
+    </div>
+</body>
+
+</html>
